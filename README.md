@@ -42,19 +42,19 @@ Use this repository to study:
 - how older blockchain architectures can be compared with Bitcoin, Ethereum, and newer smart-contract platforms
 
 ## Example Build
-docker build -t eosio-docker-lab
+docker build -t eosio-docker-lab .
 
 ## Example Run
 docker run --rm -it eosio-docker-lab bash
 
 Inside the container, verify the EOSIO tooling according to the commands available in the installed package.
 
-##Security and Maintenance Notes
+## Security and Maintenance Notes
 Do not expose this container to the public internet.
 Do not use real private keys, wallet files, credentials, or production data.
 Do not use this repository as a template for modern production infrastructure.
 Treat this as a classroom lab for historical blockchain architecture.
-##Related Course Material
+## Related Course Material
 
 This lab was part of a broader blockchain course repository:
 
