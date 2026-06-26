@@ -42,11 +42,9 @@ Use this repository to study:
 - how older blockchain architectures can be compared with Bitcoin, Ethereum, and newer smart-contract platforms
 
 ## Example Build
-
 docker build -t eosio-docker-lab
 
 ## Example Run
-￼
 docker run --rm -it eosio-docker-lab bash
 
 Inside the container, verify the EOSIO tooling according to the commands available in the installed package.
